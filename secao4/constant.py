@@ -1,0 +1,5 @@
+TESTE=1
+
+TESTE=2
+
+print(TESTE)
