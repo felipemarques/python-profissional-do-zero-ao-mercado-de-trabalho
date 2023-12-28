@@ -1,0 +1,5 @@
+arquivo = open('texto.txt', 'w+')
+texto_atual = arquivo.read()
+texto = input('Digite uma frase: ')
+arquivo.write(texto_atual + texto)
+arquivo.close()
